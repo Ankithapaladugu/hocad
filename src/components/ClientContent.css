@@ -1,0 +1,60 @@
+/* Add these styles to your existing CSS */
+.client-content {
+    padding: 24px;
+    background-color: #f9fafb;
+    border-radius: 8px;
+  }
+  
+  .client-content table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .client-content th {
+    background-color: #f3f4f6;
+    padding: 12px;
+    font-weight: 600;
+    text-align: left;
+  }
+  
+  .client-content td {
+    padding: 12px;
+    border-bottom: 1px solid #e5e7eb;
+  }
+  
+  .client-content tr:hover {
+    background-color: #f3f4f6;
+  }
+  /* Add these styles to your existing CSS */
+.search-container {
+    position: relative;
+    width: 900px;  /* Increased width */
+  }
+  
+  .search-input {
+    width: 100%;
+    padding: 12px 20px 12px 45px;  /* Increased padding */
+    font-size: 16px;  /* Larger font size */
+    border: 2px solid #e5e7eb;
+    border-radius: 8px;
+    transition: all 0.3s ease;
+  }
+  
+  .search-input:focus {
+    outline: none;
+    border-color: #2563eb;
+    box-shadow: 0 0 0 3px rgba(37, 99, 235, 0.1);
+  }
+  
+  .search-icon {
+    position: absolute;
+    left: 12px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #9ca3af;
+  }
+  
+  .search-input::placeholder {
+    color: #9ca3af;
+    font-size: 16px;
+  }
